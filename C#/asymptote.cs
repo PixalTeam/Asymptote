@@ -2,6 +2,7 @@ using System;
 
 public class Asymptote {
     public static void Main(string[] args) {
+        double timeStampFirst = GetTimestamp(DateTime.Now);
         double p, n, u;
 
         Console.WriteLine("\"p\" value: ");
@@ -16,6 +17,8 @@ public class Asymptote {
         }
 
         Console.WriteLine(n);
+        double timeStampSecond = GetTimestamp(DateTime.Now);
 
+        Console.WriteLine(timeStampSecond - timeStampFirst);
     }
 }
