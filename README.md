@@ -12,12 +12,12 @@ Pour vos calculatrices graphiques Casio USB. Notez toutefois que ce langage est 
 **C#**
 
 Langage de programmation orienté objet fonctionnant sous .NET. 2ème langage le plus rapide parmi ceux listés.<br>
-<img src="C#\Capture.PNG" width="128px">
+<img src="C%23\Capture.PNG" width="128px">
 
 **C++**
 
 Langage de programmation compilé.<br>
-<img src="C++\Capture.PNG" width="128px">
+<img src="C%2B%2B\Capture.PNG" width="128px">
 
 **C**
 
