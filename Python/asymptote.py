@@ -1,6 +1,6 @@
 p = int(input("\"p\" value: "))
-n = int(0)
-u = int(3)
+n = int(input("\"n\" value: "))
+u = (2*n + 3)/(n + 1)
 
 while abs(u - 2) >= pow(10, -p):
     n += 1

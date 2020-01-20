@@ -7,7 +7,9 @@ int main() {
     static double p, u, n;
     cout << "\"p\" value: ";
     cin >> p;
-    u = 3;
+    cout << "\"n\" value: ";
+    cin >> n;
+    u = (2 * n + 3) / (n + 1);
     while (abs(u - 2) >= pow(10, -p)) {
         n += 1;
         u = (2 * n + 3) / (n + 1);

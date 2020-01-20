@@ -3,8 +3,8 @@ let crep = document.createElement('p')
 
 input[0].onchange = function() {
     p = input[0].value
-    n = 0
-    u = 3
+    n = input[1].value
+    u = (2*n + 3)/(n + 1)
 
     while (Math.abs(u - 2) >= Math.pow(10, -p)) {
         n += 1
