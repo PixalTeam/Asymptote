@@ -1,6 +1,6 @@
 <?php
 $p = readline("\"p\" value: ");
-$n = readline("\"n\" value: ");;
+$n = readline("\"n\" value: ");
 $u = (2*$n + 3)/($n + 1);
 
 while (abs($u - 2) >= pow(10, -$p)) {
